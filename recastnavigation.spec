@@ -33,7 +33,7 @@ Requires:	%{libname} = %{EVRD}
 This package contains development files for %{name}.
 
 %prep
-%autosetup -p
+%autosetup -p1
 
 %build
 %cmake \
